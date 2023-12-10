@@ -6,6 +6,8 @@
 body {
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .first {
@@ -71,7 +73,7 @@ a:hover {
 }
 
 .smallImg-text, img {
-    width: 150px;
+    width: 100%;
     height: 150px;
 }
 
@@ -93,4 +95,31 @@ a:hover {
 
 .smallImg {
     width: 150px;
+}
+
+.second {
+    margin-bottom: 200px;
+}
+
+.third {
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text > p {
+    font-size: 36px;
+    color: #1f2937;
+    width: 800px;
+}
+
+.author-name {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
 }
