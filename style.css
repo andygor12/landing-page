@@ -2,3 +2,8 @@ img {
     width: 350px;
     height: 200px;
 }
+
+.first {
+    background-color: #1F2937;
+    color: white;
+}
