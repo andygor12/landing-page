@@ -1,4 +1,4 @@
-img {
+.first-right > img {
     width: 450px;
     height: 200px;
 }
@@ -68,4 +68,29 @@ a:hover {
 
 .first-left {
     width: 400px;
+}
+
+.smallImg-text, img {
+    width: 150px;
+    height: 150px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.smallImg-text {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: auto;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.smallImg {
+    width: 150px;
 }
